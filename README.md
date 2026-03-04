@@ -1,1 +1,1 @@
-https://github.com/LizzzardWizzzard/ono-tebe-nado-fd
+https://github.com/LizzzardWizzzard/posmotri-v-okno-fd

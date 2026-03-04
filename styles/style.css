@@ -193,7 +193,7 @@ input::placeholder {
 .content__list-container {
   position: relative;
   height: 300px;
-  width: 399px;
+  width: 401px;
   overflow-y: auto;
 }
 .content__list-item {
