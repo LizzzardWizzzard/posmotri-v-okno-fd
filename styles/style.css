@@ -9,7 +9,7 @@ html {
 }
 
 .page {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   display: flex;
   justify-content: center;
   font-size: 18px;
@@ -108,8 +108,8 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
-input {
-  font-family: 'Fira Sans Condensed', sans-serif;
+.search-form__textfield {
+  font-family: "Fira Sans Condensed", sans-serif;
   width: 225px;
   padding: 2.5px 14px 2.5px 0;
   color: #fff;
@@ -127,7 +127,7 @@ input {
   border: 1px solid #fff;
 }
 .search-form__pseudo-checkbox::after {
-  content: '';
+  content: "";
   cursor: pointer;
   display: block;
   height: 100%;
@@ -139,14 +139,14 @@ input {
   + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
-.search-form__label > span:hover {
+.search-form__label > .search-form__label-text:hover {
   text-decoration: underline;
 }
-input::placeholder {
+.search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
 .button {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   cursor: pointer;
   border: 1px solid #fff;
   background-color: transparent;
